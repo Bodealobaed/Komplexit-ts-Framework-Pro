@@ -1,0 +1,135 @@
+[
+  {
+    "id": "M1",
+    "name": "Hinckley: Montagezeit und Fehlerbezug",
+    "data_signature": "R+T; Q für Kalibrierung",
+    "required_data": [
+      "R",
+      "T",
+      "Q"
+    ],
+    "min_mrl": 2,
+    "mrl_label": "2",
+    "output": "CI / QR*",
+    "evidence": "E4",
+    "lens": "Qualität",
+    "formula_implemented": false,
+    "verification": "Literaturprofil / projektspezifische Einordnung; Primärmodell vor Berechnung prüfen"
+  },
+  {
+    "id": "M2",
+    "name": "Ben-Arieh: Fuzzy-Montageschwierigkeit",
+    "data_signature": "P+R (+H-Regeln)",
+    "required_data": [
+      "P",
+      "R"
+    ],
+    "min_mrl": 2,
+    "mrl_label": "2",
+    "output": "OD",
+    "evidence": "E2",
+    "lens": "Operation",
+    "formula_implemented": false,
+    "verification": "Literaturprofil / projektspezifische Einordnung; Primärmodell vor Berechnung prüfen"
+  },
+  {
+    "id": "M3",
+    "name": "Samy/ElMaraghy: Produktmontage",
+    "data_signature": "P (+H-DFA)",
+    "required_data": [
+      "P"
+    ],
+    "min_mrl": 1,
+    "mrl_label": "1–2",
+    "output": "CI",
+    "evidence": "E3",
+    "lens": "Produkt",
+    "formula_implemented": false,
+    "verification": "Literaturprofil / projektspezifische Einordnung; Primärmodell vor Berechnung prüfen"
+  },
+  {
+    "id": "M4",
+    "name": "Su et al.: Montagefehlerrisiko",
+    "data_signature": "P+R+T+H+Q",
+    "required_data": [
+      "P",
+      "R",
+      "T",
+      "Q",
+      "H"
+    ],
+    "min_mrl": 4,
+    "mrl_label": "4",
+    "output": "QR",
+    "evidence": "E4",
+    "lens": "Qualität",
+    "formula_implemented": false,
+    "verification": "Literaturprofil / projektspezifische Einordnung; Primärmodell vor Berechnung prüfen"
+  },
+  {
+    "id": "M5",
+    "name": "Falck et al.: manuelle Montage",
+    "data_signature": "P+R+H",
+    "required_data": [
+      "P",
+      "R",
+      "H"
+    ],
+    "min_mrl": 2,
+    "mrl_label": "2",
+    "output": "BC",
+    "evidence": "E4",
+    "lens": "Mensch",
+    "formula_implemented": false,
+    "verification": "Literaturprofil / projektspezifische Einordnung; Primärmodell vor Berechnung prüfen"
+  },
+  {
+    "id": "M6",
+    "name": "Kehrhahn et al.: Varianten-/Strukturmetriken",
+    "data_signature": "P+V (+Struktur)",
+    "required_data": [
+      "P",
+      "V"
+    ],
+    "min_mrl": 1,
+    "mrl_label": "1",
+    "output": "VS",
+    "evidence": "E3",
+    "lens": "Struktur",
+    "formula_implemented": false,
+    "verification": "Literaturprofil / projektspezifische Einordnung; Primärmodell vor Berechnung prüfen"
+  },
+  {
+    "id": "M7",
+    "name": "Jenab/Liu: Graphenvergleich",
+    "data_signature": "P+R (+H)",
+    "required_data": [
+      "P",
+      "R"
+    ],
+    "min_mrl": 2,
+    "mrl_label": "2",
+    "output": "RC",
+    "evidence": "E2",
+    "lens": "Prozess",
+    "formula_implemented": false,
+    "verification": "Literaturprofil / projektspezifische Einordnung; Primärmodell vor Berechnung prüfen"
+  },
+  {
+    "id": "M8",
+    "name": "ElMaraghy/Urbanic: operative Komplexität",
+    "data_signature": "P+R+H",
+    "required_data": [
+      "P",
+      "R",
+      "H"
+    ],
+    "min_mrl": 2,
+    "mrl_label": "2",
+    "output": "OC",
+    "evidence": "E2",
+    "lens": "Mensch/Prozess",
+    "formula_implemented": false,
+    "verification": "Literaturprofil / projektspezifische Einordnung; Primärmodell vor Berechnung prüfen"
+  }
+]
